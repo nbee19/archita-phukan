@@ -94,8 +94,16 @@ const Index = () => {
       {/* Banner Ad 1 - After Hero Section */}
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
-          <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
-          <div id="container-9be82de4981fc39db178e9005e29f327"></div>
+          <script type="text/javascript">
+	atOptions = {
+		'key' : '42db52782c597b441b9905d7d66be62d',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/42db52782c597b441b9905d7d66be62d/invoke.js"></script>
         </div>
       </section>
 
