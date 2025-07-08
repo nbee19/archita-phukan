@@ -119,7 +119,9 @@ const Index = () => {
                     <img 
                       src={video.thumbnail} 
                       alt={video.title}
-                      className="w-full h-64 object-cover"
+                      className={`w-full h-64 object-cover transition-all duration-300 ${
+                        !unlockedVideos.includes(video.id) ? 'blur-md' : ''
+                      }`}
                     />
                     <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
                       {unlockedVideos.includes(video.id) ? (
