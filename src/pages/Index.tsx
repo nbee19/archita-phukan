@@ -123,7 +123,7 @@ const Index = () => {
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
           <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
-          <div id="container-9be82de4981fc39db178e9005e29f327-2"></div>
+<div id="container-9be82de4981fc39db178e9005e29f327"></div>
         </div>
       </section>
 
@@ -190,7 +190,7 @@ const Index = () => {
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
           <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
-          <div id="container-9be82de4981fc39db178e9005e29f327-3"></div>
+<div id="container-9be82de4981fc39db178e9005e29f327"></div>
         </div>
       </section>
 
