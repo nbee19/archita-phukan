@@ -239,6 +239,8 @@ const Index = () => {
           </div>
           
           <p className="text-purple-200 mb-4 mt-4">© 2025 Archita Phukan. All rights reserved.</p>
+	<p className="text-sm text-purple-300">	 <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f8496d09a1e2f42f114a347e4843aa3ae88b1c54'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1361664/t/5"></script></p>
           <p className="text-sm text-purple-300">
             This is a real site. All content is for adults only (18+).
           </p>
