@@ -1,9 +1,9 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Lock, Play, Users, MessageCircle } from "lucide-react";
 import { useState } from "react";
+import VisitorCounter from "@/components/VisitorCounter";
 
 const Index = () => {
   const [unlockedVideos, setUnlockedVideos] = useState<string[]>([]);
@@ -204,7 +204,8 @@ const Index = () => {
               <p className="text-purple-200">Premium Content Creator</p>
             </div>
           </div>
-          <p className="text-purple-200 mb-4">© 2025 Archita Phukan. All rights reserved.</p>
+          <VisitorCounter />
+          <p className="text-purple-200 mb-4 mt-4">© 2025 Archita Phukan. All rights reserved.</p>
           <p className="text-sm text-purple-300">
             This is a real site. All content is for adults only (18+).
           </p>
