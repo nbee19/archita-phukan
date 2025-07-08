@@ -52,7 +52,7 @@ const Index = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-white">Archita Phukan</h1>
-                <p className="text-purple-200 text-sm">Premium Content Creator</p>
+                <p className="text-purple-200 text-sm">Premium Adult Content Creator</p>
               </div>
             </div>
             <Button 
@@ -85,7 +85,7 @@ const Index = () => {
             </Badge>
             <Badge variant="secondary" className="bg-purple-500/20 text-purple-200 border-purple-500/30">
               <Play className="w-4 h-4 mr-1" />
-              Premium Videos
+              Premium XXX Videos
             </Badge>
           </div>
         </div>
@@ -206,7 +206,7 @@ const Index = () => {
           </div>
           <p className="text-purple-200 mb-4">© 2025 Archita Phukan. All rights reserved.</p>
           <p className="text-sm text-purple-300">
-            This is a demo site. All content is for adults only (18+).
+            This is a real site. All content is for adults only (18+).
           </p>
         </div>
       </footer>
