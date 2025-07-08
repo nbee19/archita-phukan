@@ -71,7 +71,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-5xl font-bold text-white mb-6">
             Welcome to My
-            <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent"> Exclusive </span>
+            <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent"> Exclusive Adult </span>
             Content
           </h2>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
@@ -81,7 +81,7 @@ const Index = () => {
           <div className="flex justify-center space-x-4 mb-12">
             <Badge variant="secondary" className="bg-pink-500/20 text-pink-200 border-pink-500/30">
               <Users className="w-4 h-4 mr-1" />
-              10K+ Subscribers
+              5K+ Subscribers
             </Badge>
             <Badge variant="secondary" className="bg-purple-500/20 text-purple-200 border-purple-500/30">
               <Play className="w-4 h-4 mr-1" />
@@ -157,7 +157,7 @@ const Index = () => {
                             onClick={() => handleUnlockVideo(video.id)}
                             className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
                           >
-                            Unlock for $5
+                            Unlock
                           </Button>
                         </div>
                       )}
