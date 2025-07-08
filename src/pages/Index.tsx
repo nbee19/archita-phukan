@@ -157,7 +157,7 @@ const Index = () => {
                             onClick={() => handleUnlockVideo(video.id)}
                             className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
                           >
-                            Unlock
+                            Soon
                           </Button>
                         </div>
                       )}
