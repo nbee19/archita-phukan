@@ -43,8 +43,12 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-pink-500">
+                <img 
+                  src="/lovable-uploads/61260f4d-c4a3-4fb6-bd6e-3a60bf82e075.png" 
+                  alt="Archita Phukan"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-white">Archita Phukan</h1>
@@ -188,8 +192,12 @@ const Index = () => {
       <footer className="bg-black/40 py-12 border-t border-white/10">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-4 mb-6">
-            <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
+            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-pink-500">
+              <img 
+                src="/lovable-uploads/61260f4d-c4a3-4fb6-bd6e-3a60bf82e075.png" 
+                alt="Archita Phukan"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h4 className="text-xl font-bold text-white">Archita Phukan</h4>
