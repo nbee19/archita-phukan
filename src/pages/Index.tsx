@@ -70,7 +70,7 @@ const Index = () => {
       <section className="py-20 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-5xl font-bold text-white mb-6">
-            Welcome to My
+            Welcome to My Official
             <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent"> Exclusive Adult </span>
             Content
           </h2>
@@ -225,10 +225,10 @@ const Index = () => {
             </div>
             <div>
               <h4 className="text-xl font-bold text-white">Archita Phukan</h4>
-              <p className="text-purple-200">Premium Content Creator</p>
+              <p className="text-purple-200">Premium Adult Content Creator</p>
             </div>
           </div>
-          <VisitorCounter />
+          
           <p className="text-purple-200 mb-4 mt-4">© 2025 Archita Phukan. All rights reserved.</p>
           <p className="text-sm text-purple-300">
             This is a real site. All content is for adults only (18+).
