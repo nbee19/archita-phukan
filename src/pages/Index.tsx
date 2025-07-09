@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -94,16 +95,22 @@ const Index = () => {
       {/* Banner Ad 1 - After Hero Section */}
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
-          <script type="text/javascript">
-	atOptions = {
-		'key' : '42db52782c597b441b9905d7d66be62d',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/42db52782c597b441b9905d7d66be62d/invoke.js"></script>
+          <div 
+            dangerouslySetInnerHTML={{
+              __html: `
+                <script type="text/javascript">
+                  atOptions = {
+                    'key' : '42db52782c597b441b9905d7d66be62d',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                  };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/42db52782c597b441b9905d7d66be62d/invoke.js"></script>
+              `
+            }}
+          />
         </div>
       </section>
 
@@ -130,8 +137,14 @@ const Index = () => {
       {/* Banner Ad 2 - Between Gallery and Videos */}
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
-          <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
-<div id="container-9be82de4981fc39db178e9005e29f327"></div>
+          <div 
+            dangerouslySetInnerHTML={{
+              __html: `
+                <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
+                <div id="container-9be82de4981fc39db178e9005e29f327"></div>
+              `
+            }}
+          />
         </div>
       </section>
 
@@ -197,8 +210,14 @@ const Index = () => {
       {/* Banner Ad 3 - Before Call to Action */}
       <section className="py-8 bg-black/10">
         <div className="container mx-auto px-4 text-center">
-          <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
-<div id="container-9be82de4981fc39db178e9005e29f327"></div>
+          <div 
+            dangerouslySetInnerHTML={{
+              __html: `
+                <script async="async" data-cfasync="false" src="//pl27111926.profitableratecpm.com/9be82de4981fc39db178e9005e29f327/invoke.js"></script>
+                <div id="container-9be82de4981fc39db178e9005e29f327"></div>
+              `
+            }}
+          />
         </div>
       </section>
 
@@ -256,9 +275,20 @@ const Index = () => {
             </div>
           </div>
           
+          <VisitorCounter />
+          
           <p className="text-purple-200 mb-4 mt-4">© 2025 Archita Phukan. All rights reserved.</p>
-          <p className="text-sm text-purple-300">	 <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f8496d09a1e2f42f114a347e4843aa3ae88b1c54'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1361664/t/5"></script></p>
+          <p className="text-sm text-purple-300">
+            <a href='http://www.freevisitorcounters.com'>click here</a>
+          </p>
+          <div 
+            dangerouslySetInnerHTML={{
+              __html: `
+                <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f8496d09a1e2f42f114a347e4843aa3ae88b1c54'></script>
+                <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1361664/t/5"></script>
+              `
+            }}
+          />
           <p className="text-sm text-purple-300">
             This is a real site. All content is for adults only (18+).
           </p>
