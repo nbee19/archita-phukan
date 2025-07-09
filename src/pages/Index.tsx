@@ -2,7 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Lock, Play, Users, MessageCircle } from "lucide-react";
+import { Lock, Play, Users, MessageCircle, Mail } from "lucide-react";
 import { useState } from "react";
 import VisitorCounter from "@/components/VisitorCounter";
 
@@ -56,13 +56,22 @@ const Index = () => {
                 <p className="text-purple-200 text-sm">Premium Adult Content Creator</p>
               </div>
             </div>
-            <Button 
-              onClick={() => window.open("https://t.me/archita_phukan_video_photo_viral", "_blank")}
-              className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
-            >
-              <MessageCircle className="w-4 h-4 mr-2" />
-              Join Telegram
-            </Button>
+            <div className="flex items-center space-x-3">
+              <Button 
+                onClick={() => window.location.href = "mailto:business@architaphukan.online"}
+                className="bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600"
+              >
+                <Mail className="w-4 h-4 mr-2" />
+                Contact
+              </Button>
+              <Button 
+                onClick={() => window.open("https://t.me/archita_phukan_video_photo_viral", "_blank")}
+                className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
+              >
+                <MessageCircle className="w-4 h-4 mr-2" />
+                Join Telegram
+              </Button>
+            </div>
           </div>
         </div>
       </header>
