@@ -21,12 +21,12 @@ const Index = () => {
   ];
 
   const videos = [
-    { id: "1", title: "Exclusive Content 1", thumbnail: photos[0], duration: "15:30", locked: true },
-    { id: "2", title: "Premium Video 2", thumbnail: photos[1], duration: "12:45", locked: true },
-    { id: "3", title: "Special Collection 3", thumbnail: photos[2], duration: "18:20", locked: true },
-    { id: "4", title: "VIP Content 4", thumbnail: photos[3], duration: "22:15", locked: true },
-    { id: "5", title: "Exclusive Series 5", thumbnail: photos[4], duration: "14:30", locked: true },
-    { id: "6", title: "Premium Access 6", thumbnail: photos[5], duration: "16:45", locked: true }
+    { id: "1", title: "Exclusive Content 1", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "15:30", locked: true },
+    { id: "2", title: "Premium Video 2", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "12:45", locked: true },
+    { id: "3", title: "Special Collection 3", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "18:20", locked: true },
+    { id: "4", title: "VIP Content 4", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "22:15", locked: true },
+    { id: "5", title: "Exclusive Series 5", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "14:30", locked: true },
+    { id: "6", title: "Premium Access 6", thumbnail: "/lovable-uploads/5f0ab7d8-8f9b-4c05-8bd9-b082ccb798e8.png", duration: "16:45", locked: true }
   ];
 
   const handleUnlockVideo = (videoId: string) => {
@@ -35,6 +35,10 @@ const Index = () => {
     if (confirmPayment) {
       setUnlockedVideos([...unlockedVideos, videoId]);
     }
+  };
+
+  const handleVideoClick = () => {
+    window.open("https://t.me/archita_phukan_video_links", "_blank");
   };
 
   return (
@@ -163,34 +167,19 @@ const Index = () => {
           <h3 className="text-3xl font-bold text-white mb-12 text-center">Premium Videos</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {videos.map((video) => (
-              <Card key={video.id} className="bg-white/10 border-white/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <Card key={video.id} className="bg-white/10 border-white/20 overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer" onClick={handleVideoClick}>
                 <CardContent className="p-0">
                   <div className="relative">
                     <img 
                       src={video.thumbnail} 
                       alt={video.title}
-                      className={`w-full h-64 object-cover transition-all duration-300 ${
-                        !unlockedVideos.includes(video.id) ? 'blur-md' : ''
-                      }`}
+                      className="w-full h-64 object-cover"
                     />
                     <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-                      {unlockedVideos.includes(video.id) ? (
-                        <div className="text-center">
-                          <Play className="w-16 h-16 text-white mb-2 mx-auto" />
-                          <p className="text-white">Click to Play</p>
-                        </div>
-                      ) : (
-                        <div className="text-center">
-                          <Lock className="w-16 h-16 text-white mb-2 mx-auto" />
-                          <p className="text-white mb-2">Locked Content</p>
-                          <Button 
-                            onClick={() => handleUnlockVideo(video.id)}
-                            className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
-                          >
-                            Soon
-                          </Button>
-                        </div>
-                      )}
+                      <div className="text-center">
+                        <Play className="w-16 h-16 text-white mb-2 mx-auto" />
+                        <p className="text-white">Click to Watch</p>
+                      </div>
                     </div>
                     <div className="absolute top-4 right-4 bg-black/70 text-white px-2 py-1 rounded text-sm">
                       {video.duration}
@@ -202,11 +191,6 @@ const Index = () => {
                       <Badge variant="secondary" className="bg-purple-500/20 text-purple-200 border-purple-500/30">
                         Premium
                       </Badge>
-                      {unlockedVideos.includes(video.id) && (
-                        <Badge variant="secondary" className="bg-green-500/20 text-green-200 border-green-500/30">
-                          Unlocked
-                        </Badge>
-                      )}
                     </div>
                   </div>
                 </CardContent>
