@@ -238,8 +238,26 @@ const Index = () => {
             </div>
           </div>
           
+          {/* Ad Code in Footer */}
+          <div className="mb-6 flex justify-center">
+            <div id="frame" style={{width:'728px', height:'auto'}}>
+              <iframe 
+                data-aa='2402134' 
+                src='//ad.a-ads.com/2402134?size=728x90' 
+                style={{width:'728px', height:'90px', border:'0px', padding:'0', overflow:'hidden', backgroundColor: 'transparent'}}
+              />
+              <a 
+                style={{display: 'block', textAlign: 'right', fontSize: '12px'}} 
+                id="preview-link" 
+                href="https://aads.com/campaigns/new/?source_id=2402134&source_type=ad_unit&partner=2402134"
+              >
+                Advertise here
+              </a>
+            </div>
+          </div>
+          
           <p className="text-purple-200 mb-4 mt-4">© 2025 Archita Phukan. All rights reserved.</p>
-	<p className="text-sm text-purple-300">	 <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f8496d09a1e2f42f114a347e4843aa3ae88b1c54'></script>
+          <p className="text-sm text-purple-300">	 <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f8496d09a1e2f42f114a347e4843aa3ae88b1c54'></script>
 <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1361664/t/5"></script></p>
           <p className="text-sm text-purple-300">
             This is a real site. All content is for adults only (18+).
