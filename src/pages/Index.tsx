@@ -225,7 +225,7 @@ const Index = () => {
       <section className="py-16 bg-gradient-to-r from-pink-500/20 to-purple-500/20">
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-3xl font-bold text-white mb-6">Join My Community</h3>
-          <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">for any inquiry business@architaphukan.online</p>
+          <p className="text-xl text-purple-200 mb-4 max-w-2xl mx-auto">For any inquiry: business@architaphukan.online</p>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
             Get exclusive access to premium content, behind-the-scenes videos, and connect with me directly on Telegram.
           </p>
